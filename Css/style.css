@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url(../Assets/bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.text-big{
+    font-size: 40px;
+}
+.text-small{
+    font-size: 20px;
+}
+
+.btn{
+    color: white;
+    border: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 0 10px;
+    padding: 0 10px;
+    background: none;
+}
+#search{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.logo img{
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.navBar{
+    display: flex;
+    height: 9.60vh;
+    position: sticky;
+    top: 0;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 0 35px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    color: grey;
+}
+
+.search{
+    width: 50%;
+    display: flex;
+    padding: 15px;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+
+.firstSection{
+    padding: 20px;
+    height: 84vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 75%;
+    padding-right: 70px;
+    height: 100%;
+    margin: auto;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    width: auto;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+
+
+.section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    max-width: 85%;
+    margin: auto;
+}
+
+.right{
+    flex-direction: row;
+}
+.left{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 40px;
+}
+
+.Image{
+    border: 2px solid black;
+    border-radius: 50px;
+}
